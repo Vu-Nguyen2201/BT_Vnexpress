@@ -1,0 +1,120 @@
+! 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    link
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    
+    div 
+    <div></div>
+
+    .class
+    <div class="class"></div>
+
+    #id
+    <div id="id"></div>
+
+    div.class
+    <div class="class"></div> 
+
+    div#id
+    <div id="id"></div>
+
+    div.class#id
+    <div class="class" id="id"></div>
+
+    div.class1.class2#id
+    <div class="class1 class2" id="id"></div>
+
+    a:
+    <a href="http://"></a>
+
+    input:text
+    <input type="text" name="" id="">
+
+    h1+p 
+    <h1></h1>
+    <p></p>
+
+    div.myclass+div#myid
+    <div class="myclass"></div>
+    <div id="myid"></div>
+
+    main>section>h1 
+    <main>
+        <section>
+            <h1></h1>
+        </section>
+    </main>
+
+    main>section.class>h1#id
+    <main>
+        <section class="class">
+            <h1 id="id"></h1>
+        </section>
+    </main>
+
+    main>(section>h1+p+button)+section
+    <main>
+        <section>
+            <h1></h1>
+            <p></p>
+            <button></button>
+        </section>
+        <section></section>
+    </main>
+
+    main>(section>h1{My headline}+p{Paragraph}+button{Click me!})+section
+    <main>
+        <section>
+            <h1>My headline</h1>
+            <p>Paragraph</p>
+            <button>Click me!</button>
+        </section>
+        <section></section>
+    </main>
+
+    p{Phim hay.}>a{Click ngay}+{ de xem nhieu hon}
+    <p>Phim hay.<a href="">Click ngay</a> de xem nhieu hon</p>
+
+    ul>li
+    <ul>
+        <li></li>
+    </ul>
+
+    ul>li*5
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    ul>li{my list item $}*5
+    <ul>
+        <li>my list item 1</li>
+        <li>my list item 2</li>
+        <li>my list item 3</li>
+        <li>my list item 4</li>
+        <li>my list item 5</li>
+    </ul>
+
+    ul>li#id$.class${my list item $}*5
+    <ul>
+        <li id="id1" class="class1">my list item 1</li>
+        <li id="id2" class="class2">my list item 2</li>
+        <li id="id3" class="class3">my list item 3</li>
+        <li id="id4" class="class4">my list item 4</li>
+        <li id="id5" class="class5">my list item 5</li>
+    </ul>
+
+</body>
+</html>

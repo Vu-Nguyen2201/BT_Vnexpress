@@ -1,0 +1,200 @@
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* body */
+#body {
+    width: 1010px;
+    padding-right: 0;
+    margin: 30px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border: 2px solid grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* header */
+#header{
+    overflow: hidden;
+    margin: 0 0 10px 0;
+    border-bottom: 2px solid grey;
+    height: 28px;
+    background-color: #f0f0f3;
+}
+#information{
+    width: 670px;
+    margin: 0;
+    float: left;
+}
+#information .info-child{
+    float: left;
+    padding: 8px 10px 8px 0;
+}
+#information ul {
+    margin: 0;
+    padding: 0;
+}
+#information li {
+    display: inline;
+}
+.icon {
+    position: relative;
+}
+.icon img{
+    position: absolute;
+}
+#login{
+    border-left: 1px solid grey;
+    float: left;
+    margin: 0;
+}
+#login div {
+    float: left;
+}
+input[type="text"]{
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.3333333333333333em;
+    font-weight: 900;
+    width: 190px;
+}
+input[type="text"]{
+    text-align:right;
+}
+/* noi dung */
+#container{
+    overflow: hidden;
+}
+/* nav bar */
+#container-row1 {
+    overflow: hidden;
+    height: 95px;
+    border-bottom: 2px solid grey;
+    padding: 0;
+}
+#banner-1{
+    float: left;
+    height: 110px;
+    width: 25%;
+    padding: 1px;
+}
+#banner-2{
+    float: left;
+    height: 110px;
+    width: 386px;
+    padding: 1px;
+}
+#banner-3{
+    overflow: fixed;
+    float: left;
+    height: 109px;
+    width: 36%;
+    padding: 1px;
+}
+/* noi dung 2*/
+#container-row2 {
+    overflow: hidden;
+    clear: both;
+    height: 25px;
+}
+#container-row2 div{
+    float: left;
+    margin: 7px 7px 0px 4px;
+}
+#container-row2 ul {
+    margin: 0;
+    padding: 0;
+}
+#container-row2 li {
+    display: inline;
+    font-weight: bold;
+    border-right: 1px solid grey;
+    padding-right: 4px;
+}
+#container-row2 li a {
+    text-decoration: none; 
+    color: black;
+}
+#container-row3 {
+    overflow: hidden;
+    clear: both;
+}
+/* Trai */
+#left-container{
+    float: left;
+    height: 450px;
+    width: 500px;
+    margin-right: 5px;
+}
+#left-row1{
+    height: 25px;
+}
+.trang-nhat{
+    float: left;
+    color: #9f224e;
+    font-weight: bold;
+    background-color: #f0f0f3;
+    width: 70px;
+    padding: 4px;
+    border-left: 3px solid #9f224e;
+}
+.triangle {
+    float: left;
+}
+#left-row2{
+    height: 300px;
+}
+#left-row3{
+    height: 120px;
+}
+#left-row3 .extension div{
+    float: left;
+    margin-right: 5px;
+}
+/* Giua */
+#mid-container{
+    float: left;
+    height: 450px;
+    width: 190px;
+    margin-right: 5px;
+}
+#mid-row1{
+    height: 25px;
+}
+#mid-row2{
+    height: 280px;
+    padding: 0 14px;
+}
+#mid-row2 div{
+    border-bottom: 2px solid #e8e5dc;
+    padding: 8px 0;
+}
+#mid-row2 div p{
+    margin: 0;
+    font-size: 13px;
+}
+
+#mid-row3{
+    height: 140px;
+}
+/* Phai */
+#right-container{
+    float: left;
+    height: 450px;
+    width: 310px;
+}
+#right-row1{
+    height: 25px;
+}
+#right-row1 div{
+    float: left;
+    margin: 4px;
+}
+#right-row2{
+    height: 140px;
+}
+#right-row3{
+    height: 140px;
+}
+#right-row4{
+    height: 140px;
+}

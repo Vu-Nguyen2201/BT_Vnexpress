@@ -1,0 +1,10 @@
+.std {
+    width: 1010px;
+    margin: 30px auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+.std div {
+    border: 1px solid black;
+    float: left;
+}
